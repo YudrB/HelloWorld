@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93F7E9DB2ADE4F6600FD8C53 /* HelloWorld Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 93F7E9DA2ADE4F6600FD8C53 /* HelloWorld Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		93F7E9E02ADE4F6600FD8C53 /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E9DF2ADE4F6600FD8C53 /* HelloWorldApp.swift */; };
+		93F7E9E22ADE4F6600FD8C53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E9E12ADE4F6600FD8C53 /* ContentView.swift */; };
+		93F7E9E42ADE4F6800FD8C53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F7E9E32ADE4F6800FD8C53 /* Assets.xcassets */; };
+		93F7E9E72ADE4F6800FD8C53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F7E9E62ADE4F6800FD8C53 /* Preview Assets.xcassets */; };
+		93F7E9F12ADE4F6800FD8C53 /* HelloWorld_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E9F02ADE4F6800FD8C53 /* HelloWorld_Watch_AppTests.swift */; };
+		93F7E9FB2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E9FA2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITests.swift */; };
+		93F7E9FD2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F7E9FC2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITestsLaunchTests.swift */; };
+		93F7EA112ADE4FE400FD8C53 /* HelloWatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93F7EA102ADE4FE400FD8C53 /* HelloWatch.mm */; };
+		93F7EA172ADED31600FD8C53 /* libHelloLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F7EA162ADED31600FD8C53 /* libHelloLib.a */; };
+		93F7EA182ADED31700FD8C53 /* libHelloLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F7EA162ADED31600FD8C53 /* libHelloLib.a */; };
+		93F7EA192ADED31700FD8C53 /* libHelloLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F7EA162ADED31600FD8C53 /* libHelloLib.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93F7E9DC2ADE4F6600FD8C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F7E9CE2ADE4F6600FD8C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F7E9D92ADE4F6600FD8C53;
+			remoteInfo = "HelloWorld Watch App";
+		};
+		93F7E9ED2ADE4F6800FD8C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F7E9CE2ADE4F6600FD8C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F7E9D92ADE4F6600FD8C53;
+			remoteInfo = "HelloWorld Watch App";
+		};
+		93F7E9F72ADE4F6800FD8C53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93F7E9CE2ADE4F6600FD8C53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93F7E9D92ADE4F6600FD8C53;
+			remoteInfo = "HelloWorld Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		93F7EA032ADE4F6800FD8C53 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				93F7E9DB2ADE4F6600FD8C53 /* HelloWorld Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		93F7E9D42ADE4F6600FD8C53 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F7E9DA2ADE4F6600FD8C53 /* HelloWorld Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloWorld Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F7E9DF2ADE4F6600FD8C53 /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
+		93F7E9E12ADE4F6600FD8C53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93F7E9E32ADE4F6800FD8C53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93F7E9E62ADE4F6800FD8C53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93F7E9EC2ADE4F6800FD8C53 /* HelloWorld Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloWorld Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F7E9F02ADE4F6800FD8C53 /* HelloWorld_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld_Watch_AppTests.swift; sourceTree = "<group>"; };
+		93F7E9F62ADE4F6800FD8C53 /* HelloWorld Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HelloWorld Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F7E9FA2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		93F7E9FC2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93F7EA0D2ADE4FA100FD8C53 /* HelloWorld Watch App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld Watch App-Bridging-Header.h"; sourceTree = "<group>"; };
+		93F7EA102ADE4FE400FD8C53 /* HelloWatch.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWatch.mm; sourceTree = "<group>"; };
+		93F7EA142ADE52BD00FD8C53 /* HelloWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWatch.h; sourceTree = "<group>"; };
+		93F7EA162ADED31600FD8C53 /* libHelloLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHelloLib.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93F7E9D72ADE4F6600FD8C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7EA172ADED31600FD8C53 /* libHelloLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E9E92ADE4F6800FD8C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7EA182ADED31700FD8C53 /* libHelloLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E9F32ADE4F6800FD8C53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7EA192ADED31700FD8C53 /* libHelloLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93F7E9CD2ADE4F6600FD8C53 = {
+			isa = PBXGroup;
+			children = (
+				93F7EA1B2B1017F400FD8C53 /* External */,
+				93F7E9DE2ADE4F6600FD8C53 /* HelloWorld Watch App */,
+				93F7E9EF2ADE4F6800FD8C53 /* HelloWorld Watch AppTests */,
+				93F7E9F92ADE4F6800FD8C53 /* HelloWorld Watch AppUITests */,
+				93F7E9D52ADE4F6600FD8C53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93F7E9D52ADE4F6600FD8C53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E9D42ADE4F6600FD8C53 /* HelloWorld.app */,
+				93F7E9DA2ADE4F6600FD8C53 /* HelloWorld Watch App.app */,
+				93F7E9EC2ADE4F6800FD8C53 /* HelloWorld Watch AppTests.xctest */,
+				93F7E9F62ADE4F6800FD8C53 /* HelloWorld Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93F7E9DE2ADE4F6600FD8C53 /* HelloWorld Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				93F7EA102ADE4FE400FD8C53 /* HelloWatch.mm */,
+				93F7EA142ADE52BD00FD8C53 /* HelloWatch.h */,
+				93F7EA0D2ADE4FA100FD8C53 /* HelloWorld Watch App-Bridging-Header.h */,
+				93F7E9DF2ADE4F6600FD8C53 /* HelloWorldApp.swift */,
+				93F7E9E12ADE4F6600FD8C53 /* ContentView.swift */,
+				93F7E9E32ADE4F6800FD8C53 /* Assets.xcassets */,
+				93F7E9E52ADE4F6800FD8C53 /* Preview Content */,
+			);
+			path = "HelloWorld Watch App";
+			sourceTree = "<group>";
+		};
+		93F7E9E52ADE4F6800FD8C53 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E9E62ADE4F6800FD8C53 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93F7E9EF2ADE4F6800FD8C53 /* HelloWorld Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E9F02ADE4F6800FD8C53 /* HelloWorld_Watch_AppTests.swift */,
+			);
+			path = "HelloWorld Watch AppTests";
+			sourceTree = "<group>";
+		};
+		93F7E9F92ADE4F6800FD8C53 /* HelloWorld Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93F7E9FA2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITests.swift */,
+				93F7E9FC2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "HelloWorld Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		93F7EA1B2B1017F400FD8C53 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				93F7EA162ADED31600FD8C53 /* libHelloLib.a */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93F7E9D32ADE4F6600FD8C53 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F7EA042ADE4F6800FD8C53 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				93F7E9D22ADE4F6600FD8C53 /* Resources */,
+				93F7EA032ADE4F6800FD8C53 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F7E9DD2ADE4F6600FD8C53 /* PBXTargetDependency */,
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = 93F7E9D42ADE4F6600FD8C53 /* HelloWorld.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		93F7E9D92ADE4F6600FD8C53 /* HelloWorld Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F7EA002ADE4F6800FD8C53 /* Build configuration list for PBXNativeTarget "HelloWorld Watch App" */;
+			buildPhases = (
+				93F7E9D62ADE4F6600FD8C53 /* Sources */,
+				93F7E9D72ADE4F6600FD8C53 /* Frameworks */,
+				93F7E9D82ADE4F6600FD8C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloWorld Watch App";
+			productName = "HelloWorld Watch App";
+			productReference = 93F7E9DA2ADE4F6600FD8C53 /* HelloWorld Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93F7E9EB2ADE4F6800FD8C53 /* HelloWorld Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F7EA072ADE4F6800FD8C53 /* Build configuration list for PBXNativeTarget "HelloWorld Watch AppTests" */;
+			buildPhases = (
+				93F7E9E82ADE4F6800FD8C53 /* Sources */,
+				93F7E9E92ADE4F6800FD8C53 /* Frameworks */,
+				93F7E9EA2ADE4F6800FD8C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F7E9EE2ADE4F6800FD8C53 /* PBXTargetDependency */,
+			);
+			name = "HelloWorld Watch AppTests";
+			productName = "HelloWorld Watch AppTests";
+			productReference = 93F7E9EC2ADE4F6800FD8C53 /* HelloWorld Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93F7E9F52ADE4F6800FD8C53 /* HelloWorld Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F7EA0A2ADE4F6800FD8C53 /* Build configuration list for PBXNativeTarget "HelloWorld Watch AppUITests" */;
+			buildPhases = (
+				93F7E9F22ADE4F6800FD8C53 /* Sources */,
+				93F7E9F32ADE4F6800FD8C53 /* Frameworks */,
+				93F7E9F42ADE4F6800FD8C53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93F7E9F82ADE4F6800FD8C53 /* PBXTargetDependency */,
+			);
+			name = "HelloWorld Watch AppUITests";
+			productName = "HelloWorld Watch AppUITests";
+			productReference = 93F7E9F62ADE4F6800FD8C53 /* HelloWorld Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93F7E9CE2ADE4F6600FD8C53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					93F7E9D32ADE4F6600FD8C53 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					93F7E9D92ADE4F6600FD8C53 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+					93F7E9EB2ADE4F6800FD8C53 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 93F7E9D92ADE4F6600FD8C53;
+					};
+					93F7E9F52ADE4F6800FD8C53 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 93F7E9D92ADE4F6600FD8C53;
+					};
+				};
+			};
+			buildConfigurationList = 93F7E9D12ADE4F6600FD8C53 /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93F7E9CD2ADE4F6600FD8C53;
+			productRefGroup = 93F7E9D52ADE4F6600FD8C53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93F7E9D32ADE4F6600FD8C53 /* HelloWorld */,
+				93F7E9D92ADE4F6600FD8C53 /* HelloWorld Watch App */,
+				93F7E9EB2ADE4F6800FD8C53 /* HelloWorld Watch AppTests */,
+				93F7E9F52ADE4F6800FD8C53 /* HelloWorld Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93F7E9D22ADE4F6600FD8C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E9D82ADE4F6600FD8C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7E9E72ADE4F6800FD8C53 /* Preview Assets.xcassets in Resources */,
+				93F7E9E42ADE4F6800FD8C53 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E9EA2ADE4F6800FD8C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E9F42ADE4F6800FD8C53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93F7E9D62ADE4F6600FD8C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7E9E22ADE4F6600FD8C53 /* ContentView.swift in Sources */,
+				93F7EA112ADE4FE400FD8C53 /* HelloWatch.mm in Sources */,
+				93F7E9E02ADE4F6600FD8C53 /* HelloWorldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E9E82ADE4F6800FD8C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7E9F12ADE4F6800FD8C53 /* HelloWorld_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93F7E9F22ADE4F6800FD8C53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F7E9FD2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITestsLaunchTests.swift in Sources */,
+				93F7E9FB2ADE4F6800FD8C53 /* HelloWorld_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93F7E9DD2ADE4F6600FD8C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F7E9D92ADE4F6600FD8C53 /* HelloWorld Watch App */;
+			targetProxy = 93F7E9DC2ADE4F6600FD8C53 /* PBXContainerItemProxy */;
+		};
+		93F7E9EE2ADE4F6800FD8C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F7E9D92ADE4F6600FD8C53 /* HelloWorld Watch App */;
+			targetProxy = 93F7E9ED2ADE4F6800FD8C53 /* PBXContainerItemProxy */;
+		};
+		93F7E9F82ADE4F6800FD8C53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93F7E9D92ADE4F6600FD8C53 /* HelloWorld Watch App */;
+			targetProxy = 93F7E9F72ADE4F6800FD8C53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93F7E9FE2ADE4F6800FD8C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93F7E9FF2ADE4F6800FD8C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93F7EA012ADE4F6800FD8C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HelloWorld;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LogicMedia.HelloWorld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorld Watch App/HelloWorld Watch App-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		93F7EA022ADE4F6800FD8C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloWorld Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HelloWorld;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LogicMedia.HelloWorld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HelloWorld Watch App/HelloWorld Watch App-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		93F7EA052ADE4F6800FD8C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_KEY_CFBundleDisplayName = HelloWorld;
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-std=c++14";
+				PRODUCT_BUNDLE_IDENTIFIER = LogicMedia.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93F7EA062ADE4F6800FD8C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_KEY_CFBundleDisplayName = HelloWorld;
+				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "-std=c++14";
+				PRODUCT_BUNDLE_IDENTIFIER = LogicMedia.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93F7EA082ADE4F6800FD8C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LogicMedia.HelloWorld-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloWorld Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		93F7EA092ADE4F6800FD8C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LogicMedia.HelloWorld-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorld Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HelloWorld Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		93F7EA0B2ADE4F6800FD8C53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LogicMedia.HelloWorld-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HelloWorld Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		93F7EA0C2ADE4F6800FD8C53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "LogicMedia.HelloWorld-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HelloWorld Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93F7E9D12ADE4F6600FD8C53 /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7E9FE2ADE4F6800FD8C53 /* Debug */,
+				93F7E9FF2ADE4F6800FD8C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F7EA002ADE4F6800FD8C53 /* Build configuration list for PBXNativeTarget "HelloWorld Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7EA012ADE4F6800FD8C53 /* Debug */,
+				93F7EA022ADE4F6800FD8C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F7EA042ADE4F6800FD8C53 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7EA052ADE4F6800FD8C53 /* Debug */,
+				93F7EA062ADE4F6800FD8C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F7EA072ADE4F6800FD8C53 /* Build configuration list for PBXNativeTarget "HelloWorld Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7EA082ADE4F6800FD8C53 /* Debug */,
+				93F7EA092ADE4F6800FD8C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F7EA0A2ADE4F6800FD8C53 /* Build configuration list for PBXNativeTarget "HelloWorld Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93F7EA0B2ADE4F6800FD8C53 /* Debug */,
+				93F7EA0C2ADE4F6800FD8C53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93F7E9CE2ADE4F6600FD8C53 /* Project object */;
+}
